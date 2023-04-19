@@ -235,7 +235,7 @@ body {
                 }
 
                 .period {
-                    margin: 5px 0 30px 40px;
+                    margin: 5px 0 30px 30px;
                 }
                 /* FINE STYLE INTESTAZIONE */
 
@@ -251,6 +251,20 @@ body {
                 /* FINE UTILITIES LISTE */
 
                 /* STYLE LISTE */
+                .list-item .icon > .text {
+                    display: inline-block;
+                    color: #000;
+                }
+
+                .list-item .icon {
+                    margin: 0 30px;
+                    font-size: 22px;
+                }
+
+                .list-item .text {
+                    margin: 0 35px;
+                    font-size: 15px;
+                }
                 /* FINE STYLE LISTE */
 
             /* FINE STYLE SPECIFY */
