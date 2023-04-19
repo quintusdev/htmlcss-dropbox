@@ -70,39 +70,117 @@ body {
 
         /* STYLE JUMBOTRON */
             .contjumbotron {
-                display: flex;
                 width: 100%;
-                justify-content: center;
-                align-items: center;
                 background-color: #b4d0e7;
             }
 
-            .rowmain1 {
-                display: flex;
-                width: 70%;
-                justify-content: center;
-                align-items: center;
+            .cont60 {
+                width: 60%;
+                margin: 0 auto;
             }
 
             /* STYLE H1 */
+             h1 {
+                font-size: 80px;
+                font-weight: 900;
+                padding: 60px 0 45px 0;
+             }
+            /* FINE STYLE H1 */
+            
+            /* STYLE RIGHE JUMBO */
+                .rowjumbo1 {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    width: 100%;
+                }
 
+                .rowjumbo2 {
+                    width: 100%;
+                    display: flex;
+                }
+            /* FINE STYLE RIGHE JUMBO */
 
-            .col20main {
-                display: flex;
-                width: 20%;
-                justify-content: center;
-                align-items: center;
+            /* STYLE COLONNE JUMBOTRON */
+                .col30 {
+                    width: 30%;
+                    padding-right: 20px;
+                }
+
+                .col70 {
+                    position: relative;
+                    width: 70%;
+                }
+
+                .col70 img{      
+                    position: absolute;
+                    right: 0;
+                    width: 100%;
+                }
+            /* STYLE COLONNE JUMBOTRON */
+
+            .rowjumbo2 button {
+                display: block;
+                background-color: #0061ff;
+                padding: 10px 15px;
+                color: #fff;
+                font-size: 18px;
+                border: none;
+                margin-top: 35px;
             }
 
-            .col80main {
-                display: flex;
-                width: 80%;
+            .rowjumbo2 p {
+                display: block;
+                font-size: 15px;
+                line-height: 1.5;
             }
 
-            .contentmain1 img{
-                width: 100px;
+            .col30 > span {
+                display: block;
+                font-size: 18px;
+                margin: 45px 0;
             }
-        /* STYLE JUMBOTRON */
+
+            .col30 #rowdown {
+                display: block;
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+        /* FINE STYLE JUMBOTRON */
+
+
+        /* INIZIO STYLE PIANO BUSINESS */
+            .contpianobusiness {
+                width: 100%;
+                background-color: green;
+            }
+
+            .contplan {
+                width: 60%;
+                margin: 0 auto;
+                background-color: yellow;
+            }
+
+            .rowbusiness1 {
+                width: 60%;
+                height: 200px;
+                margin: 0 auto;
+                background-color: blue;
+            }
+            .rowbusiness2 {
+                width: calc(100% / 3 - 20px);
+                height: 200px;
+                margin: 0 10px;
+                background-color: red;
+            }
+            
+            .rowbusiness3 {
+                width: 60%;
+                height: 250px;
+                margin: 0 auto;
+                background-color: coral;
+            }
+        /* FINE STYLE PIANO BUSINESS */
     /* FINE MAIN */
 
 /* FINE STYLE FOOTER */
