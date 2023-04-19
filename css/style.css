@@ -194,6 +194,7 @@ body {
 
                 .col33content .business-plan {
                     text-align: center;
+                    font-weight: 100;
                     border-bottom: 1px solid grey;
                     padding: 10px 0;
                 }
@@ -278,7 +279,7 @@ body {
                     margin: 0 auto;
                 }
 
-                .specify #trial {
+                .specify .trial {
                     width: 100%;
                     font-size: 13px;
                     border: none;
@@ -317,8 +318,8 @@ body {
 
                 .specify .text {
                     color: #000;
-                    font-size: 15px;
-                    padding: 10px 0;
+                    font-size: 13px;
+                    padding-right: 15px;
                 }
             /* FINE STYLE SPECIFY */
 
