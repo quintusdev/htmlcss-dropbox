@@ -181,7 +181,7 @@ body {
                     width: 100%;
                     height: 250px;
                     margin: 0 auto;
-                    background-color: coral;
+                    margin-top: 80px;
                 }
             /* FINE STYLE ROW */
 
@@ -198,6 +198,23 @@ body {
                     border-bottom: 1px solid grey;
                     padding: 10px 0;
                 }
+
+                .col100 {
+                    width: 100%;
+                    border: 1px solid grey;
+                }
+
+                .col100content .business-plan {
+                    text-align: center;
+                    font-weight: 100;
+                    border-bottom: 1px solid grey;
+                    padding: 10px 0;
+                }
+
+                .col100content {
+                    position: relative;
+                }
+
 
             /* FINE STYLE COLONNE */
 
@@ -301,7 +318,9 @@ body {
                 }
 
                 hr {
-                    margin: 30px 0;
+                    width: 20%;
+                
+                    margin: 30px 0 30px 30px;
                     color: rgb(141, 141, 141);
                 }
 
@@ -321,10 +340,33 @@ body {
                     font-size: 13px;
                     padding-right: 15px;
                 }
+
+                .contact {
+                    position: absolute;
+                    top: 90px;
+                    right: 20px;
+                    font-size: 18px;
+                    border: none;
+                    background-color: #0061ff;
+                    padding: 15px 25px;
+                    color: #fff;
+                }
+
+                .specify .descr {
+                    margin: 30px 30px;
+                    font-size: 22px;
+                }
+
+                .specify p {
+                    font-size: 14px;
+                    margin: 30px 30px;
+                }
+
+
             /* FINE STYLE SPECIFY */
-
-
         /* FINE STYLE PIANO BUSINESS */
+
+        /* INIZIO  */
     /* FINE MAIN */
 
 /* FINE STYLE FOOTER */
