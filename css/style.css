@@ -160,7 +160,6 @@ body {
                 .contplan {
                     width: 60%;
                     margin: 0 auto;
-                    background-color: yellow;
                 }
             /* FINE STYLE CONTENITORI */
             
@@ -169,11 +168,11 @@ body {
                 .rowbusiness1 {
                     width: 100%;
                     margin: 0 auto;
-                    background-color: blue;
                 }
                 .rowbusiness2 {
+                    display: flex;
                     width: 100%;
-                    height: 300px;
+                    margin: 0 auto;
                     background-color: violet;
                 }
                 
@@ -190,6 +189,11 @@ body {
                     width: calc(100% / 3 - 20px);
                     margin: 0 10px;
                     background-color: red;
+                }
+
+                .col33content .business-plan {
+                    text-align: center;
+                    border: 2px solid grey;
                 }
 
             /* FINE STYLE COLONNE */
@@ -215,7 +219,41 @@ body {
             }
             /* FINE STYLE INTESTAZIONE 1 */
             
-            
+            /* STYLE SPECIFY */
+                /* STYLE INTESTAZIONE */
+                h3{
+                    font-size: 25px;
+                    margin: 40px 0 0 30px;
+                }
+
+                .price, .period {
+                    font-size: 17px;
+                }
+
+                .price {
+                    margin: 15px 0 0px 30px;
+                }
+
+                .period {
+                    margin: 5px 0 30px 40px;
+                }
+                /* FINE STYLE INTESTAZIONE */
+
+
+                /* UTILITIES LISTE */
+                .specify ul {
+                    list-style-type: none;
+                }
+
+                .specify li {
+                    text-decoration: none;
+                }
+                /* FINE UTILITIES LISTE */
+
+                /* STYLE LISTE */
+                /* FINE STYLE LISTE */
+
+            /* FINE STYLE SPECIFY */
 
 
         /* FINE STYLE PIANO BUSINESS */
