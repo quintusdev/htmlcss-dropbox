@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -173,6 +170,7 @@ body {
 
                 .rowbusiness2 {
                     display: flex;
+                    justify-content: space-between;
                     width: 100%;
                     margin: 0 auto;
                 }
@@ -186,9 +184,8 @@ body {
             /* FINE STYLE ROW */
 
             /* STYLE COLONNE */
-                .col33 {
-                    width: calc(100% / 3 - 20px);
-                    margin: 0 10px;
+                .col33.border{
+                    width: calc(100% / 3 - 30px);
                     border: 1px solid grey;
                 }
 
@@ -219,7 +216,7 @@ body {
             /* FINE STYLE COLONNE */
 
             /* STYLE INTESTAZIONE 1 */
-            h2 {
+            #busi {
                 font-size: 43px;
                 padding: 140px 0 50px 0;
             }
@@ -419,6 +416,92 @@ body {
                     margin-bottom: 50px;
                 }
         /* FINE STYLE PARTNER */
+
+        /* INIZIO STYLE OPERAZIONI */
+            /* STYLE CONTENITORI */
+                .container-oper {
+                    width: 100%;
+                }
+
+                .row-oper {
+                    width: 60%;
+                    margin: 0 auto;
+                }
+
+                .row2-oper {
+                    width: 100%;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+
+                .col33.oper {
+                    width: calc(100% / 3);
+                    display: flex;
+                    border: none;
+                    padding: 10px 0;
+                }
+
+                .col33content {
+                    padding: 0 20px;
+                }
+            /* FINE STYLE CONTENITORI */
+
+            /* STYLE CONTENUTO */
+                
+                .row-oper h2 {
+                    font-size: 40px;
+                    padding: 40px 0;
+                }
+                .row-oper #oper {
+                    font-size: 40px;
+                }
+
+                .col33content img {
+                    max-width: 100%;
+                }
+
+                .col33content h4 {
+                    font-size: 25px;
+                    margin-bottom: 30px;
+                }
+
+                .col33content p {
+                    font-size: 16px;
+                }
+            /* FINE STYLE CONTENUTO */
+        /* FINE STYLE OPERAZIONI */
+
+        /* INIZIO TEAM NUMBER */
+            .container-number {
+                width: 100%;
+                margin: 100px 0;
+            }
+
+            .row-number {
+                width: 60%;
+                display: flex;
+                justify-content: left;
+                margin: 0 auto;
+                padding: 50px 0;
+            }
+
+            .content-number {
+                width: 60%;
+            }
+
+            .row-number h2 {
+                font-size: 40px;
+                padding: 50px 0;
+            }
+
+            .content-number a{
+                font-size: 18px;
+                text-decoration: underline;
+                color: blue;
+            }
+        /* FINE TEAM NUMBER */
     /* FINE MAIN */
 
 /* FINE STYLE FOOTER */
