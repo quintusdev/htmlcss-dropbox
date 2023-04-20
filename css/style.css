@@ -189,7 +189,7 @@
                     border: 1px solid grey;
                 }
 
-                .col33content .business-plan {
+                .col33contentbus .business-plan {
                     text-align: center;
                     font-weight: 100;
                     border-bottom: 1px solid grey;
@@ -262,6 +262,11 @@
                     list-style-type: none;
                 }
 
+                .checkul {
+                    list-style-type: none;
+                    padding-bottom: 60px;
+                }
+
                 .specify li {
                     text-decoration: none;
                 }
@@ -284,7 +289,7 @@
                 }
 
                 .specify .text {
-                    font-size: 13px;
+                    font-size: 14px;
                 }
                 /* FINE STYLE LISTE */
 
@@ -326,16 +331,20 @@
                     padding: 10px 30px;
                 }
 
+                .list-item.checkli {
+                    padding-bottom: 10px;
+                }
+
                 .specify .check {
                     color: #0061ff;
                     font-size: 15px;
-                    padding: 10px 5px 0 30px;
+                    padding: 0px 5px 0 30px;
                 }
 
                 .specify .text {
                     color: #000;
                     font-size: 13px;
-                    padding-right: 15px;
+                    padding-right: 11px;
                 }
 
                 .contact {
@@ -502,6 +511,56 @@
                 color: blue;
             }
         /* FINE TEAM NUMBER */
+
+        /* INIZIO SEZIONE SPONSOR */
+            .container-sponsor {
+                width: 100%;
+            }
+
+            .row-sponsor {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .col33.sponsor {
+                width: calc(100% /3);
+                height: calc(100vw / 3);
+                display: flex;
+                background-color: violet;
+            }
+
+            .row2-sponsor{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #0061ff;
+            }
+
+            .col50.sponsor {
+                width: 50%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                background-color: #d1e9cd;
+            }
+
+            .borderimg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .borderimg img{
+                width: 100%;
+                color: #fff;
+            }
+
+        /* FINE SEZIONE SPONSOR */
     /* FINE MAIN */
 
 /* FINE STYLE FOOTER */
