@@ -766,26 +766,66 @@
                     font-size: 30px;
                     padding-right: 50px;
                 }
-                /* INIZIO STYLE CONTENUTO DOMANDE */
-                
                 /* FINE STYLE CONTENUTO DOMANDE */
         /* FINE SEZIONE DOMANDE */
     /* FINE MAIN */
 
     /* INIZIO STYLE FOOTER */
         /* INIZIO SEZIONE LISTE FOOTER */
+
         .container-footer {
             width: 100%;
             background-color: #000;
-            height: 500px;
         }
 
         .row-footer1 {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 90px 0;
+            margin: 0 auto;
+        }
+
+        .col-foot {
+        display: flex;
+        width: calc(100% / 5);
+        }
+
+        .col-lingua {
             width: 60%;
             margin: 0 auto;
-            height: 150px;
-            background-color: yellow;
         }
+
+        hr {
+            width: 10%;
+            margin: 20px;
+            color: #3e4969;
+        }
+
+        .content-lingua #foot {
+            font-size: 15px;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        
+        .list .titlefoot {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+        
+        li {
+            color: #fff;
+            font-size: small;
+            font-weight: 300;
+            padding: 8px 0;
+        }
+        /* FINE STYLE COL-FOOT 1 */
         /* FINE SEZIONE LISTE FOOTER */
     /* FINE STYLE FOOTER */
 /* FINE STYLE BODY */
