@@ -348,7 +348,7 @@
 
                 .contact {
                     position: absolute;
-                    top: 90px;
+                    top: 75px;
                     right: 20px;
                     font-size: 18px;
                     border: none;
@@ -659,7 +659,7 @@
                     display: flex;
                     width: 100%;
                     justify-content: space-between;
-                    align-items: center;
+                    position: relative;
                 }
 
                 .contentprova {
@@ -673,6 +673,9 @@
                     display: flex;
                     width: 100%;
                     justify-content: right;
+                    position: absolute;
+                    right: 0;
+                    top: 170px;
                 }
                 /* FINE STYLE STRUTTURA */
 
@@ -683,6 +686,7 @@
                     font-size: 2.2rem;
                     font-weight: 600;
                     color: #61082b;
+                    vertical-align: top;
                 }
 
                 .contentbtn #prova {
@@ -692,7 +696,6 @@
                     background-color: #fff;
                     padding: 10px 40px;
                     color: #000;
-                    vertical-align: top;
                 }
                 /* FINE STYLE CONTENUTO PROVA */
         /* FINE SEZIONE PROVA */
@@ -793,19 +796,44 @@
         }
 
         .col-lingua {
-            width: 60%;
-            margin: 0 auto;
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
         }
 
-        hr {
-            width: 10%;
-            margin: 20px;
-            color: #3e4969;
+        .content-lingua {
+            width: 60%;
+        }
+
+        hr#footer{
+            width: 20%;
+            margin: 60px 0;
+            color: #fff;
         }
 
         .content-lingua #foot {
-            font-size: 15px;
-            color: #fff;
+            font-size: 18px;
+            color: #999999;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        #up {
+            font-size: 14px;
+        }
+
+        #world {
+            font-size: 16px;
+        }
+
+        .lingua {
+            width: 70%;
+            margin: 50px 0;
+        }
+
+        .lingua i {
+            display: inline-block;
+            color: #999999;
         }
 
         ul {
