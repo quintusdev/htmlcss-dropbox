@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* INIZIO STYLE FOOTER */
+/* INIZIO STYLE BODY */
     .container-hdr {
         width: 100%;
         display: flex;
@@ -701,7 +701,8 @@
                 /* INIZIO STYLE STRUTTURA DOMANDE */
                 .cont-domande {
                     width: 100%;
-                    margin-bottom: 80px;
+                    padding-top: 100px;
+                    padding-bottom: 120px;
                     background-color: #fff;
                 }
 
@@ -771,4 +772,20 @@
         /* FINE SEZIONE DOMANDE */
     /* FINE MAIN */
 
-/* FINE STYLE FOOTER */
+    /* INIZIO STYLE FOOTER */
+        /* INIZIO SEZIONE LISTE FOOTER */
+        .container-footer {
+            width: 100%;
+            background-color: #000;
+            height: 500px;
+        }
+
+        .row-footer1 {
+            width: 60%;
+            margin: 0 auto;
+            height: 150px;
+            background-color: yellow;
+        }
+        /* FINE SEZIONE LISTE FOOTER */
+    /* FINE STYLE FOOTER */
+/* FINE STYLE BODY */
