@@ -98,11 +98,17 @@
 
                 .rowjumbo2 {
                     width: 100%;
-                    display: flex;
                 }
             /* FINE STYLE RIGHE JUMBO */
 
             /* STYLE COLONNE JUMBOTRON */
+
+                .colonna100 {
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                }
+
                 .col40 {
                     position: relative;
                     width: 36%;
@@ -134,6 +140,8 @@
             .rowjumbo2 p {
                 display: block;
                 font-size: 17px;
+                padding-right: 52px;
+                margin-bottom: 40spx;
             }
             
 
